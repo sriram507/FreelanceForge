@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Digital Solutions Team | Web, Mobile & Cloud Development</title>
+<meta name="description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services for modern businesses.">
+<meta name="keywords" content="web development, mobile app development, UI/UX design, cloud solutions, SEO, digital services">
+<meta property="og:title" content="Digital Solutions Team | Web, Mobile & Cloud Development">
+<meta property="og:description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services.">
+<meta property="og:image" content="images/og-image.jpg">
+<meta property="og:url" content="https://www.yourdomain.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<style>
+  html { scroll-behavior: smooth; }
+  .hero-section h1 { background: linear-gradient(90deg,#4e54c8,#8f94fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .scroll-down { display:inline-block; margin-top:30px; animation: bounce 2s infinite; color:#fff; }
+  @keyframes bounce { 0%,20%,50%,80%,100%{ transform:translateY(0); } 40%{ transform:translateY(-10px);} 60%{ transform:translateY(-5px);} }
+  .card:hover { transform: translateY(-5px); box-shadow:0 10px 20px rgba(0,0,0,0.15); transition: all 0.3s ease; }
+  .project-card { position: relative; overflow: hidden; border-radius:.5rem; }
+  .project-card img { width:100%; display:block; }
+  .project-overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:#fff; opacity:0; transition:0.3s; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:15px; }
+  .project-card:hover .project-overlay { opacity:1; }
+  .social-links a { margin:0 5px; color:#0d6efd; transition:0.3s; }
+  .social-links a:hover { color:#0056b3; }
+
+
+  /* WhatsApp Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* Scroll Top */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0d6efd;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 999;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm"> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Digital Solutions Team</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Expertise</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Insights</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary ms-3">Get Consultation</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-section bg-primary text-white text-center d-flex align-items-center min-vh-100">
+  <div class="container" data-aos="fade-up">
+    <h1 class="display-4 fw-bold">Transforming Ideas into Digital Experiences</h1>
+    <p class="lead">Web • Mobile • UI/UX • SEO • Cloud</p>
+    <p class="mt-3">We craft scalable, reliable, and innovative digital solutions that accelerate growth and enhance customer engagement.</p>
+    <a href="#contact" class="btn btn-light btn-lg mt-3">Start Your Project</a>
+    <a href="#about" class="scroll-down d-block" aria-label="Scroll down"><i class="fas fa-angle-down fa-2x"></i></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right">
+        <h2 class="fw-bold text-primary">Who We Are</h2>
+        <p>We are a multidisciplinary digital solutions team delivering web & mobile applications, user-centric UI/UX designs, and data-driven SEO & cloud strategies.</p>
+        <p>Our approach combines creativity, technical expertise, and business insight to provide solutions that empower businesses to scale efficiently and effectively.</p>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="bg-light p-4 rounded shadow-sm">
+          <h5 class="fw-bold">Why Partner With Us</h5>
+          <ul>
+            <li>Full-cycle development from concept to deployment</li>
+            <li>Scalable, secure, and high-performance solutions</li>
+            <li>Modern tech stack & innovative approaches</li>
+            <li>Client-focused and timely delivery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Our Services</h2>
+      <p class="text-muted">Comprehensive digital services to elevate your business</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-code fa-2x text-primary mb-3"></i><h5>Web Development</h5><p>Custom websites, web apps, and e-commerce solutions tailored to your goals.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-mobile-alt fa-2x text-primary mb-3"></i><h5>Mobile Apps</h5><p>Cross-platform iOS & Android apps for engagement, conversions, and performance.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-paint-brush fa-2x text-primary mb-3"></i><h5>UI/UX Design</h5><p>User-centric interfaces and experiences that amplify brand identity and usability.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-server fa-2x text-primary mb-3"></i><h5>Backend & API</h5><p>Robust, scalable backend architectures and seamless API integrations.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-search fa-2x text-primary mb-3"></i><h5>SEO & Marketing</h5><p>Data-driven strategies to increase online visibility, engagement, and leads.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-cloud fa-2x text-primary mb-3"></i><h5>Cloud & DevOps</h5><p>CI/CD, cloud deployment, and infrastructure management for reliability and scale.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS / TECH STACK -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Expertise & Tech Stack</h2>
+      <p class="text-muted">Technologies, frameworks, and tools we excel at</p>
+    </div>
+    <div class="row g-4 text-center">
+      <div class="col-md-3" data-aos="fade-up"><i class="fab fa-js-square fa-3x text-warning mb-2"></i><h6>JavaScript</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="50"><i class="fab fa-react fa-3x text-info mb-2"></i><h6>React.js</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100"><i class="fab fa-node-js fa-3x text-success mb-2"></i><h6>Node.js</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="150"><i class="fas fa-database fa-3x text-primary mb-2"></i><h6>Databases</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-aws fa-3x text-warning mb-2"></i><h6>AWS / Cloud</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="250"><i class="fas fa-code-branch fa-3x text-secondary mb-2"></i><h6>Git & CI/CD</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300"><i class="fas fa-search fa-3x text-danger mb-2"></i><h6>SEO & Analytics</h6></div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="350"><i class="fas fa-paint-brush fa-3x text-success mb-2"></i><h6>UI/UX Design</h6></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TEAM -->
+<section id="team" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Meet Our Team</h2>
+      <p class="text-muted">Skilled professionals driving innovation and delivering results</p>
+    </div>
+
+    <div class="row g-4 text-center">
+
+      <!-- Lead Developer / Founder -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Sriram Injarapu"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Sriram Injarapu</h5>
+          <p class="text-muted">Lead MERN Full Stack Developer & Founder</p>
+          <p>Oversees projects, ensures technical excellence, and leads the team in delivering scalable web and mobile solutions.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SnapLogic Architect -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Sunil Pinaka"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Sunil Pinaka</h5>
+          <p class="text-muted">SnapLogic Architect</p>
+          <p>Leads enterprise integration solutions and data workflow automation for scalable business systems.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Software Developer -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Arun Kumar"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Arun Kumar</h5>
+          <p class="text-muted">Software Developer</p>
+          <p>Builds scalable, high-performance applications across frontend and backend systems with a focus on reliability and clean architecture.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps Engineer -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Krishna"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Krishna</h5>
+          <p class="text-muted">DevOps Engineer</p>
+          <p>Automates deployment pipelines and manages cloud infrastructure to ensure secure, scalable, and reliable application delivery.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO Specialist -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Diliip"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Diliip</h5>
+          <p class="text-muted">SEO & Marketing Specialist</p>
+          <p>Drives online visibility and growth through data-driven SEO strategies and digital marketing campaigns.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Senior Graphic Designer -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="250">
+        <div class="card p-4 shadow-sm h-100">
+          <img src="/assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
+               class="mx-auto d-block mb-3 rounded-circle"
+               alt="Prasanth Raj"
+               width="200" height="200"
+               style="object-fit: cover;"
+               loading="lazy">
+
+          <h5 class="fw-bold">Prasanth Raj</h5>
+          <p class="text-muted">Senior Graphic Designer</p>
+          <p>Creates impactful visual designs and brand assets that enhance user experience and communication.</p>
+
+          <div class="social-links mt-3">
+            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-primary"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- PROJECTS -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Our Portfolio</h2>
+      <p class="text-muted">Selected projects showcasing our capabilities</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="project-card">
+          <img src="/assets/images/talent origin.jpg" alt=" Talent origin Project ">
+          <div class="project-overlay">
+            <h5>TalentOrigin Web Platform</h5>
+            <p>Custom scalable web solution</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="project-card">
+          <img src="/assets/images/kadiyam flora.jpg" alt="kadiyam flora Project">
+          <div class="project-overlay">
+            <h5>Kadiyam Flora Commerce App</h5>
+            <p>Cross-platform mobile experience</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <img src="/assets/images/workspace finder.png" alt="Project 3">
+          <div class="project-overlay">
+            <h5>Workspace Finder</h5>
+            <p>Discover inspiring coworking & virtual offices designed for productivity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Our Achievements</h2>
+    </div>
+    <div class="row text-center g-4">
+      <div class="col-md-3"><h2 class="fw-bold">120+</h2><p>Projects Delivered</p></div>
+      <div class="col-md-3"><h2 class="fw-bold">50+</h2><p>Happy Clients</p></div>
+      <div class="col-md-3"><h2 class="fw-bold">5+</h2><p>Years Experience</p></div>
+      <div class="col-md-3"><h2 class="fw-bold">10+</h2><p>Technologies Used</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Client Testimonials</h2>
+      <p class="text-muted">Hear from businesses who trust us</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card p-4 shadow-sm">
+          <p>"The team delivered our project on time with exceptional quality. Highly recommend!"</p>
+          <h6 class="fw-bold mt-3">Pranav</h6>
+          <p class="text-muted">CEO, TalentOrigin</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="card p-4 shadow-sm">
+          <p>"Their UI/UX and development expertise transformed our digital presence completely."</p>
+          <h6 class="fw-bold mt-3">Rajesh Kumar</h6>
+          <p class="text-muted">Marketing Head, Creative Solutions</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card p-4 shadow-sm">
+          <p>"Professional, responsive, and highly skilled. Truly a pleasure to collaborate with."</p>
+          <h6 class="fw-bold mt-3">Abhishek</h6>
+          <p class="text-muted">Startup Founder</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG / INSIGHTS -->
+<section id="blog" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Insights & Articles</h2>
+      <p class="text-muted">Tips, updates, and best practices from our team</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card p-3 shadow-sm">
+          <h5>Top 5 Web Development Trends in 2026</h5>
+          <p>Stay ahead with the latest technologies and best practices for web development.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="card p-3 shadow-sm">
+          <h5>Optimizing Mobile Apps for Better UX</h5>
+          <p>Strategies to design intuitive, engaging, and high-performance mobile apps.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card p-3 shadow-sm">
+          <h5>Scaling Cloud Infrastructure Efficiently</h5>
+          <p>Best practices for reliable, scalable, and secure cloud deployments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold text-primary mb-4">Get in Touch</h2>
+
+    <form class="mx-auto" style="max-width:600px">
+      <input type="text" class="form-control mb-3" placeholder="Full Name" required>
+      <input type="email" class="form-control mb-3" placeholder="Email" required>
+      <textarea class="form-control mb-3" rows="4" placeholder="Project Details"></textarea>
+      <button type="submit" class="btn btn-primary w-100">Send Request</button>
+       </form>
+ 
+
+    <!-- MAP -->
+    <div class="mt-5">
+      <h4 class="fw-bold text-primary">Our Location</h4>
+      <p>Door No. 70-1-4/4 , 2nd floor, Polisetty Enclave, Jn, opp. Visakha Dairy, Sarpavaram, Ramanayyapeta, Andhra Pradesh 533005</p>
+
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15266.478115948807!2d82.2357711905518!3d16.944049876648254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a38294097e5b731%3A0xaa799cadb632fdc0!2sThe%20-%20OFFICE%2C%20Door%20No.%2070-1-4%2F4%20%2C%202nd%20floor%2C%20Polisetty%20Enclave%2C%20Jn%2C%20opp.%20Visakha%20Dairy%2C%20Sarpavaram%2C%20Ramanayyapeta%2C%20Andhra%20Pradesh%20533005!3m2!1d16.9938556!2d82.2427925!5e0!3m2!1sen!2sin!4v1771328321652!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+      </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Digital Solutions Team</h5>
+        <p>Delivering innovative web, mobile, UI/UX, SEO, and cloud solutions for businesses of all sizes. Our mission is to help companies grow digitally with scalable and secure solutions.</p>
+      </div>
+
+      <div class="col-md-2 mb-3">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="#team" class="text-white text-decoration-none">Team</a></li>
+          <li><a href="#projects" class="text-white text-decoration-none">Portfolio</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6 class="fw-bold">Contact</h6>
+        <p>Email: info@digitalsolutions.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: Door No. 70-1-4/4 , 2nd floor, Polisetty Enclave, Jn, opp. Visakha Dairy, Sarpavaram, Ramanayyapeta, Andhra Pradesh 533005</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6 class="fw-bold">Follow Us</h6>
+        <a href="#" class="text-white me-2"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-github fa-lg"></i></a>
+      </div>
+
+    </div>
+    <div class="text-center mt-4">
+      <p class="small mb-0">&copy; 2026 Digital Solutions Team. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- WhatsApp -->
+<a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Scroll Top -->
+<div class="scroll-top" id="scrollTopBtn">
+  <i class="fas fa-arrow-up"></i>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 120,
+      easing: 'ease-in-out-quad'
+    });
+  });
+
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    scrollBtn.style.display = "flex";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+</script>
+</body>
+</html>
