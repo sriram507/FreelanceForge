@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,81 +7,42 @@
 <title>Digital Solutions Team | Web, Mobile & Cloud Development</title>
 <meta name="description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services for modern businesses.">
 <meta name="keywords" content="web development, mobile app development, UI/UX design, cloud solutions, SEO, digital services">
+<meta name="author" content="Digital Solutions Team">
+<meta name="robots" content="index, follow">
+
 <meta property="og:title" content="Digital Solutions Team | Web, Mobile & Cloud Development">
 <meta property="og:description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services.">
-<meta property="og:image" content="images/og-image.jpg">
+<meta property="og:image" content="assets/images/og-image.jpg">
 <meta property="og:url" content="https://www.yourdomain.com">
 <meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="styles.css">
-
-<style>
-  html { scroll-behavior: smooth; }
-  .hero-section h1 { background: linear-gradient(90deg,#4e54c8,#8f94fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-  .scroll-down { display:inline-block; margin-top:30px; animation: bounce 2s infinite; color:#fff; }
-  @keyframes bounce { 0%,20%,50%,80%,100%{ transform:translateY(0); } 40%{ transform:translateY(-10px);} 60%{ transform:translateY(-5px);} }
-  .card:hover { transform: translateY(-5px); box-shadow:0 10px 20px rgba(0,0,0,0.15); transition: all 0.3s ease; }
-  .project-card { position: relative; overflow: hidden; border-radius:.5rem; }
-  .project-card img { width:100%; display:block; }
-  .project-overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); color:#fff; opacity:0; transition:0.3s; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:15px; }
-  .project-card:hover .project-overlay { opacity:1; }
-  .social-links a { margin:0 5px; color:#0d6efd; transition:0.3s; }
-  .social-links a:hover { color:#0056b3; }
-
-
-  /* WhatsApp Button */
-.whatsapp-float {
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  background: #25D366;
-  color: white;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26px;
-  z-index: 999;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-}
-
-/* Scroll Top */
-.scroll-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #0d6efd;
-  color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 999;
-}
-</style>
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm"> -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
-
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Digital Solutions Team</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+    <a class="navbar-brand fw-bold" href="#top">Digital Solutions Team</a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#nav"
+      aria-controls="nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="nav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -98,6 +59,9 @@
     </div>
   </div>
 </nav>
+</header>
+
+<main>
 
 <!-- HERO -->
 <section class="hero-section bg-primary text-white text-center d-flex align-items-center min-vh-100">
@@ -106,7 +70,9 @@
     <p class="lead">Web • Mobile • UI/UX • SEO • Cloud</p>
     <p class="mt-3">We craft scalable, reliable, and innovative digital solutions that accelerate growth and enhance customer engagement.</p>
     <a href="#contact" class="btn btn-light btn-lg mt-3">Start Your Project</a>
-    <a href="#about" class="scroll-down d-block" aria-label="Scroll down"><i class="fas fa-angle-down fa-2x"></i></a>
+    <a href="#about" class="scroll-down d-block" aria-label="Scroll down">
+      <i class="fas fa-angle-down fa-2x"></i>
+    </a>
   </div>
 </section>
 
@@ -119,6 +85,7 @@
         <p>We are a multidisciplinary digital solutions team delivering web & mobile applications, user-centric UI/UX designs, and data-driven SEO & cloud strategies.</p>
         <p>Our approach combines creativity, technical expertise, and business insight to provide solutions that empower businesses to scale efficiently and effectively.</p>
       </div>
+
       <div class="col-lg-6" data-aos="fade-left">
         <div class="bg-light p-4 rounded shadow-sm">
           <h5 class="fw-bold">Why Partner With Us</h5>
@@ -141,13 +108,14 @@
       <h2 class="fw-bold text-primary">Our Services</h2>
       <p class="text-muted">Comprehensive digital services to elevate your business</p>
     </div>
+
     <div class="row g-4">
       <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-code fa-2x text-primary mb-3"></i><h5>Web Development</h5><p>Custom websites, web apps, and e-commerce solutions tailored to your goals.</p></div></div>
-      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-mobile-alt fa-2x text-primary mb-3"></i><h5>Mobile Apps</h5><p>Cross-platform iOS & Android apps for engagement, conversions, and performance.</p></div></div>
-      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-paint-brush fa-2x text-primary mb-3"></i><h5>UI/UX Design</h5><p>User-centric interfaces and experiences that amplify brand identity and usability.</p></div></div>
-      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-server fa-2x text-primary mb-3"></i><h5>Backend & API</h5><p>Robust, scalable backend architectures and seamless API integrations.</p></div></div>
-      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-search fa-2x text-primary mb-3"></i><h5>SEO & Marketing</h5><p>Data-driven strategies to increase online visibility, engagement, and leads.</p></div></div>
-      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-cloud fa-2x text-primary mb-3"></i><h5>Cloud & DevOps</h5><p>CI/CD, cloud deployment, and infrastructure management for reliability and scale.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-mobile-alt fa-2x text-primary mb-3"></i><h5>Mobile Apps</h5><p>Cross-platform iOS & Android apps.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-paint-brush fa-2x text-primary mb-3"></i><h5>UI/UX Design</h5><p>User-centric interfaces and experiences.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-server fa-2x text-primary mb-3"></i><h5>Backend & API</h5><p>Scalable backend architectures and integrations.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-search fa-2x text-primary mb-3"></i><h5>SEO & Marketing</h5><p>Data-driven growth strategies.</p></div></div>
+      <div class="col-md-4"><div class="card h-100 text-center p-4 shadow-sm"><i class="fas fa-cloud fa-2x text-primary mb-3"></i><h5>Cloud & DevOps</h5><p>CI/CD and infrastructure management.</p></div></div>
     </div>
   </div>
 </section>
@@ -157,20 +125,100 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold text-primary">Expertise & Tech Stack</h2>
-      <p class="text-muted">Technologies, frameworks, and tools we excel at</p>
+      <p class="text-muted">Technologies, platforms, and tools powering our solutions</p>
     </div>
+
     <div class="row g-4 text-center">
-      <div class="col-md-3" data-aos="fade-up"><i class="fab fa-js-square fa-3x text-warning mb-2"></i><h6>JavaScript</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="50"><i class="fab fa-react fa-3x text-info mb-2"></i><h6>React.js</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100"><i class="fab fa-node-js fa-3x text-success mb-2"></i><h6>Node.js</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="150"><i class="fas fa-database fa-3x text-primary mb-2"></i><h6>Databases</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-aws fa-3x text-warning mb-2"></i><h6>AWS / Cloud</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="250"><i class="fas fa-code-branch fa-3x text-secondary mb-2"></i><h6>Git & CI/CD</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300"><i class="fas fa-search fa-3x text-danger mb-2"></i><h6>SEO & Analytics</h6></div>
-      <div class="col-md-3" data-aos="fade-up" data-aos-delay="350"><i class="fas fa-paint-brush fa-3x text-success mb-2"></i><h6>UI/UX Design</h6></div>
+
+      <!-- Frontend -->
+      <div class="col-md-3" data-aos="fade-up">
+        <i class="fab fa-react fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">React.js</h6>
+        <small class="text-muted">Modern Frontend Apps</small>
+      </div>
+
+      <!-- Backend -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="50">
+        <i class="fab fa-node-js fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">Node.js & Express</h6>
+        <small class="text-muted">API & Server Systems</small>
+      </div>
+
+      <!-- Database -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-database fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">MongoDB / SQL</h6>
+        <small class="text-muted">Data Architecture</small>
+      </div>
+
+      <!-- Enterprise Integration -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
+        <i class="fas fa-network-wired fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">SnapLogic Integration</h6>
+        <small class="text-muted">Enterprise Automation</small>
+      </div>
+
+      <!-- Cloud -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <i class="fab fa-aws fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">AWS Cloud</h6>
+        <small class="text-muted">Scalable Infrastructure</small>
+      </div>
+
+      <!-- DevOps -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="250">
+        <i class="fas fa-infinity fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">DevOps & CI/CD</h6>
+        <small class="text-muted">Automated Deployment</small>
+      </div>
+
+      <!-- Containers -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <i class="fab fa-docker fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">Docker</h6>
+        <small class="text-muted">Containerized Apps</small>
+      </div>
+
+      <!-- Security -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="350">
+        <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">Web Security</h6>
+        <small class="text-muted">Secure Applications</small>
+      </div>
+
+      <!-- SEO -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">SEO & Analytics</h6>
+        <small class="text-muted">Growth Optimization</small>
+      </div>
+
+      <!-- UI UX -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="450">
+        <i class="fas fa-pencil-ruler fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">UI / UX Design</h6>
+        <small class="text-muted">User Experience</small>
+      </div>
+
+      <!-- Testing -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-vial fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">Testing & QA</h6>
+        <small class="text-muted">Quality Assurance</small>
+      </div>
+
+      <!-- Performance -->
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="550">
+        <i class="fas fa-tachometer-alt fa-3x text-primary mb-3"></i>
+        <h6 class="fw-semibold">Performance Optimization</h6>
+        <small class="text-muted">Speed & Scalability</small>
+      </div>
+
     </div>
   </div>
 </section>
+
+
 
 
 <!-- TEAM -->
@@ -439,106 +487,123 @@
   <div class="container text-center">
     <h2 class="fw-bold text-primary mb-4">Get in Touch</h2>
 
-    <form class="mx-auto" style="max-width:600px">
-      <input type="text" class="form-control mb-3" placeholder="Full Name" required>
-      <input type="email" class="form-control mb-3" placeholder="Email" required>
-      <textarea class="form-control mb-3" rows="4" placeholder="Project Details"></textarea>
-      <button type="submit" class="btn btn-primary w-100">Send Request</button>
-       </form>
- 
+    <form id="contactForm" class="mx-auto" style="max-width:600px" method="POST" action="#">
+      
+      <label for="name" class="visually-hidden">Full Name</label>
+      <input id="name" type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
 
+      <label for="email" class="visually-hidden">Email</label>
+      <input id="email" type="email" name="email" class="form-control mb-3" placeholder="Email" required>
+
+      <label for="message" class="visually-hidden">Project Details</label>
+      <textarea id="message" name="message" class="form-control mb-3" rows="4" placeholder="Project Details" required></textarea>
+
+      <button type="submit" class="btn btn-primary w-100">Send Request</button>
+    </form>
+   
     <!-- MAP -->
     <div class="mt-5">
       <h4 class="fw-bold text-primary">Our Location</h4>
-      <p>Door No. 70-1-4/4 , 2nd floor, Polisetty Enclave, Jn, opp. Visakha Dairy, Sarpavaram, Ramanayyapeta, Andhra Pradesh 533005</p>
+      <p>Door No. 70-1-4/4, 2nd floor, Polisetty Enclave, Sarpavaram, Andhra Pradesh 533005</p>
 
       <div class="ratio ratio-16x9">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15266.478115948807!2d82.2357711905518!3d16.944049876648254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a38294097e5b731%3A0xaa799cadb632fdc0!2sThe%20-%20OFFICE%2C%20Door%20No.%2070-1-4%2F4%20%2C%202nd%20floor%2C%20Polisetty%20Enclave%2C%20Jn%2C%20opp.%20Visakha%20Dairy%2C%20Sarpavaram%2C%20Ramanayyapeta%2C%20Andhra%20Pradesh%20533005!3m2!1d16.9938556!2d82.2427925!5e0!3m2!1sen!2sin!4v1771328321652!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe
+          src="https://www.google.com/maps?q=Polisetty+Enclave+Sarpavaram&output=embed"
+          style="border:0;"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
-      </div>
+  </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="bg-dark text-white pt-5 pb-4">
   <div class="container">
-    <div class="row">
+    <div class="row gy-4">
 
-      <div class="col-md-4 mb-3">
+      <!-- Brand -->
+      <div class="col-md-4">
         <h5 class="fw-bold">Digital Solutions Team</h5>
-        <p>Delivering innovative web, mobile, UI/UX, SEO, and cloud solutions for businesses of all sizes. Our mission is to help companies grow digitally with scalable and secure solutions.</p>
+        <p class="text-white-50 mb-0">
+          Delivering innovative web, mobile, UI/UX, SEO, and cloud solutions for businesses of all sizes.
+          Our mission is to help companies grow digitally with scalable and secure solutions.
+        </p>
       </div>
 
-      <div class="col-md-2 mb-3">
+      <!-- Quick Links -->
+      <nav class="col-md-2" aria-label="Footer Navigation">
         <h6 class="fw-bold">Quick Links</h6>
-        <ul class="list-unstyled">
-          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
-          <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
-          <li><a href="#team" class="text-white text-decoration-none">Team</a></li>
-          <li><a href="#projects" class="text-white text-decoration-none">Portfolio</a></li>
-          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        <ul class="list-unstyled mb-0">
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#services" class="footer-link">Services</a></li>
+          <li><a href="#team" class="footer-link">Team</a></li>
+          <li><a href="#projects" class="footer-link">Portfolio</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="col-md-3 mb-3">
+      <!-- Contact Info -->
+      <div class="col-md-3">
         <h6 class="fw-bold">Contact</h6>
-        <p>Email: info@digitalsolutions.com</p>
-        <p>Phone: +1 (555) 123-4567</p>
-        <p>Address: Door No. 70-1-4/4 , 2nd floor, Polisetty Enclave, Jn, opp. Visakha Dairy, Sarpavaram, Ramanayyapeta, Andhra Pradesh 533005</p>
+        <address class="text-white-50 mb-0">
+          Email:
+          <a href="mailto:info@digitalsolutions.com" class="footer-link">
+            info@digitalsolutions.com
+          </a>
+          <br>
+          Phone:
+          <a href="tel:+15551234567" class="footer-link">
+            +1 (555) 123-4567
+          </a>
+          <br>
+          Door No. 70-1-4/4, 2nd floor, Polisetty Enclave,<br>
+          Sarpavaram, Andhra Pradesh 533005
+        </address>
       </div>
 
-      <div class="col-md-3 mb-3">
+      <!-- Social Links -->
+      <div class="col-md-3">
         <h6 class="fw-bold">Follow Us</h6>
-        <a href="#" class="text-white me-2"><i class="fab fa-facebook fa-lg"></i></a>
-        <a href="#" class="text-white me-2"><i class="fab fa-twitter fa-lg"></i></a>
-        <a href="#" class="text-white me-2"><i class="fab fa-linkedin fa-lg"></i></a>
-        <a href="#" class="text-white me-2"><i class="fab fa-github fa-lg"></i></a>
+        <div class="d-flex gap-3 fs-5">
+          <a href="#" class="footer-social" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="footer-social" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer-social" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="footer-social" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
       </div>
 
     </div>
-    <div class="text-center mt-4">
-      <p class="small mb-0">&copy; 2026 Digital Solutions Team. All Rights Reserved.</p>
+
+    <!-- Copyright -->
+    <div class="text-center mt-4 pt-3 border-top border-secondary">
+      <p class="small mb-0 text-white-50">
+        &copy; 2026 Digital Solutions Team. All Rights Reserved.
+      </p>
     </div>
   </div>
 </footer>
 
 
-<!-- WhatsApp -->
-<a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/15551234567"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat on WhatsApp">
   <i class="fab fa-whatsapp"></i>
 </a>
 
-<!-- Scroll Top -->
 <div class="scroll-top" id="scrollTopBtn">
   <i class="fas fa-arrow-up"></i>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      offset: 120,
-      easing: 'ease-in-out-quad'
-    });
-  });
+<script src="script.js" defer></script>
 
-  const scrollBtn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    scrollBtn.style.display = "flex";
-  } else {
-    scrollBtn.style.display = "none";
-  }
-});
-
-scrollBtn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
-</script>
 </body>
 </html>
