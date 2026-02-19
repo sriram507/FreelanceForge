@@ -288,6 +288,27 @@ i:hover {
 
 
 
+#services i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+#services .card:hover i {
+  transform: scale(1.15);
+}
+
+
+#skills i {
+  font-size: 3.2rem;
+  transition: all 0.35s ease;
+}
+
+#skills .col-md-3:hover i {
+  transform: translateY(-10px) scale(1.12);
+}
+
+
 /* ===============================
    Footer
 ================================ */
