@@ -1,0 +1,14 @@
+# Digital Solutions Team
+> Freelance digital team in Sarpavaram, Andhra Pradesh, India building web apps, mobile apps, AI chatbots and automation, UI/UX, SEO and cloud systems.
+
+## Services
+- Web development (React, Node.js, MongoDB)
+- Mobile apps (Android and iOS)
+- AI chatbots, document search, workflow automation, LLM integration
+- UI/UX and graphic design
+- Cloud, DevOps and SnapLogic enterprise integration
+- SEO and analytics
+
+## Contact
+- Email: info@digitalsolutions.com
+- Website: https://www.yourdomain.com

@@ -3,687 +3,361 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Digital Solutions Team | Web, Mobile & Cloud Development</title>
-<meta name="description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services for modern businesses.">
-<meta name="keywords" content="web development, mobile app development, UI/UX design, cloud solutions, SEO, digital services">
-<meta name="author" content="Digital Solutions Team">
+<title>Digital Solutions Team | Web, Mobile, AI & Cloud Development</title>
+<meta name="description" content="Digital solutions team in Andhra Pradesh building web apps, mobile apps, AI chatbots, automation, UI/UX and cloud systems.">
 <meta name="robots" content="index, follow">
-
-<meta property="og:title" content="Digital Solutions Team | Web, Mobile & Cloud Development">
-<meta property="og:description" content="Professional digital solutions team providing web development, mobile apps, UI/UX design, SEO, and cloud services.">
-<meta property="og:image" content="assets/images/og-image.jpg">
-<meta property="og:url" content="https://www.yourdomain.com">
+<meta property="og:title" content="Digital Solutions Team | Web, Mobile, AI & Cloud">
+<meta property="og:description" content="Web, mobile, AI automation, UI/UX, SEO and cloud for growing businesses.">
+<meta property="og:image" content="https://www.yourdomain.com/assets/images/og-image.jpg"><!-- TODO real URL -->
 <meta name="twitter:card" content="summary_large_image">
-
+<link rel="canonical" href="https://www.yourdomain.com/"><!-- TODO -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-
-
 <link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Digital Solutions Team","url":"https://www.yourdomain.com","email":"info@digitalsolutions.com",
+"address":{"@type":"PostalAddress","streetAddress":"Door No. 70-1-4/4, 2nd floor, Polisetty Enclave","addressLocality":"Sarpavaram","addressRegion":"Andhra Pradesh","postalCode":"533005","addressCountry":"IN"},
+"makesOffer":["Web development","Mobile apps","AI chatbots and automation","UI/UX design","Cloud and DevOps","SEO"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How much does a website or app cost?","acceptedAnswer":{"@type":"Answer","text":"Simple business sites start small; custom web and mobile apps are quoted after a short discovery call. Use the estimator for a rough range."}},
+{"@type":"Question","name":"Can you add AI to my existing product?","acceptedAnswer":{"@type":"Answer","text":"Yes. We integrate LLM APIs, chatbots and document search into existing apps without a rebuild."}},
+{"@type":"Question","name":"How long does a project take?","acceptedAnswer":{"@type":"Answer","text":"Most websites take 2 to 4 weeks. Apps and AI systems take 6 to 12 weeks depending on scope."}}]}
+</script>
 </head>
-
 <body>
-
+<a class="skip-link" href="#main">Skip to content</a>
 <header>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#top">Digital Solutions Team</a>
-
-    <button class="navbar-toggler" type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#nav"
-      aria-controls="nav"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
+    <a class="navbar-brand" href="#top">Digital Solutions Team</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Expertise</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ai">AI</a></li>
+        <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Work</a></li>
         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
-        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-        <li class="nav-item"><a class="nav-link" href="#blog">Insights</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
       </ul>
-      <a href="#contact" class="btn btn-primary ms-3">Get Consultation</a>
+      <a href="#estimator" class="btn btn-primary ms-lg-3">Get an estimate</a>
     </div>
   </div>
 </nav>
 </header>
 
-<main>
-
+<main id="main">
 <!-- HERO -->
-<section class="hero-section bg-primary text-white text-center d-flex align-items-center min-vh-100">
-  <div class="container" data-aos="fade-up">
-    <h1 class="display-4 fw-bold">Transforming Ideas into Digital Experiences</h1>
-    <p class="lead">Web • Mobile • UI/UX • SEO • Cloud</p>
-    <p class="mt-3">We craft scalable, reliable, and innovative digital solutions that accelerate growth and enhance customer engagement.</p>
-    <a href="#contact" class="btn btn-light btn-lg mt-3">Start Your Project</a>
-    <a href="#about" class="scroll-down d-block" aria-label="Scroll down">
-      <i class="fas fa-angle-down fa-2x"></i>
-    </a>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="py-5">
+<section class="hero-section">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6" data-aos="fade-right">
-        <h2 class="fw-bold text-primary">Who We Are</h2>
-        <p>We are a multidisciplinary digital solutions team delivering web & mobile applications, user-centric UI/UX designs, and data-driven SEO & cloud strategies.</p>
-        <p>Our approach combines creativity, technical expertise, and business insight to provide solutions that empower businesses to scale efficiently and effectively.</p>
-      </div>
-
-      <div class="col-lg-6" data-aos="fade-left">
-        <div class="bg-light p-4 rounded shadow-sm">
-          <h5 class="fw-bold">Why Partner With Us</h5>
-          <ul>
-            <li>Full-cycle development from concept to deployment</li>
-            <li>Scalable, secure, and high-performance solutions</li>
-            <li>Modern tech stack & innovative approaches</li>
-            <li>Client-focused and timely delivery</li>
-          </ul>
-        </div>
-      </div>
+    <p class="hero-badge"><i class="fas fa-circle"></i> Taking on new projects this month</p>
+    <h1>We build web, mobile and AI products that your customers actually use.</h1>
+    <p class="lead">Design, development, cloud and SEO from one small team in Andhra Pradesh, working with clients worldwide.</p>
+    <div class="hero-demo" aria-hidden="true"><span class="prompt">Ask our assistant:</span> <span id="typed"></span><span class="caret">|</span></div>
+    <div class="hero-actions">
+      <a href="#estimator" class="btn btn-light btn-lg">Estimate my project</a>
+      <a href="#projects" class="btn btn-outline-light btn-lg">See our work</a>
+      <button class="btn btn-link text-white" type="button" data-open-chat>Chat with our AI</button>
     </div>
+    <ul class="hero-trust">
+      <li><b>120+</b> projects delivered</li>
+      <li><b>50+</b> clients served</li>
+      <li><b>5+</b> years in business</li>
+      <li><b>1 day</b> average reply time</li>
+    </ul>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section id="services" class="py-5 bg-light">
+<section id="services">
   <div class="container">
-
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Our Services</h2>
-      <p class="text-muted">Comprehensive digital services to elevate your business</p>
-    </div>
-
+    <div class="section-head"><h2>What we build</h2><p>Eight services, one accountable team. Pick one or combine them.</p></div>
     <div class="row g-4">
-
-      <!-- Web Development -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-react-original colored"></i>
-          <h5 class="mt-3">Web Development</h5>
-          <p>Modern, scalable websites and web apps using React and MERN stack.</p>
-        </div>
-      </div>
-
-      <!-- Mobile Apps -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-android-plain colored"></i>
-          <h5 class="mt-3">Mobile Applications</h5>
-          <p>Cross-platform Android and iOS applications for modern businesses.</p>
-        </div>
-      </div>
-
-      <!-- UI UX -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-figma-plain colored"></i>
-          <h5 class="mt-3">UI / UX Design</h5>
-          <p>Beautiful, user-centered designs and product experiences.</p>
-        </div>
-      </div>
-
-      <!-- Backend APIs -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-nodejs-plain colored"></i>
-          <h5 class="mt-3">Backend & APIs</h5>
-          <p>Secure REST APIs and scalable backend architectures.</p>
-        </div>
-      </div>
-
-      <!-- Database Design -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-mongodb-plain colored"></i>
-          <h5 class="mt-3">Database Architecture</h5>
-          <p>High-performance database design using MongoDB and SQL.</p>
-        </div>
-      </div>
-
-      <!-- Cloud Infrastructure -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-amazonwebservices-original colored"></i>
-          <h5 class="mt-3">Cloud Infrastructure</h5>
-          <p>Secure, scalable deployment on AWS cloud platforms.</p>
-        </div>
-      </div>
-
-      <!-- DevOps -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-docker-plain colored"></i>
-          <h5 class="mt-3">DevOps & Automation</h5>
-          <p>CI/CD pipelines, containerization, and deployment automation.</p>
-        </div>
-      </div>
-
-      <!-- Enterprise Integration -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-nodejs-plain colored"></i>
-          <h5 class="mt-3">Enterprise Integration</h5>
-          <p>System integration and workflow automation for businesses.</p>
-        </div>
-      </div>
-
-      <!-- SEO & Analytics -->
-      <div class="col-md-4">
-        <div class="card h-100 text-center p-4 shadow-sm">
-          <i class="devicon-google-plain colored"></i>
-          <h5 class="mt-3">SEO & Analytics</h5>
-          <p>Search optimization and performance tracking for growth.</p>
-        </div>
-      </div>
-
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fab fa-react"></i><h3>Web development</h3><p>Fast, scalable websites and web apps your team can maintain.</p><ul class="tags"><li>React</li><li>Node.js</li><li>MERN</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fas fa-mobile-screen"></i><h3>Mobile apps</h3><p>Android and iOS apps from one codebase, published to both stores.</p><ul class="tags"><li>Android</li><li>iOS</li><li>Cross-platform</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fab fa-figma"></i><h3>UI/UX design</h3><p>Interfaces tested with real users before development starts.</p><ul class="tags"><li>Figma</li><li>Prototypes</li><li>Design systems</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fas fa-server"></i><h3>Backend and APIs</h3><p>Secure APIs and databases designed to grow with your users.</p><ul class="tags"><li>REST</li><li>MongoDB</li><li>MySQL</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fab fa-aws"></i><h3>Cloud and DevOps</h3><p>Releases that are routine, monitored and easy to roll back.</p><ul class="tags"><li>AWS</li><li>Docker</li><li>CI/CD</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fas fa-diagram-project"></i><h3>Enterprise integration</h3><p>Connect CRMs, ERPs and databases so data flows without manual work.</p><ul class="tags"><li>SnapLogic</li><li>ETL</li><li>Automation</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fas fa-chart-line"></i><h3>SEO and analytics</h3><p>Technical SEO and tracking that show what brings in customers.</p><ul class="tags"><li>Technical SEO</li><li>GA4</li><li>Reports</li></ul></article></div>
+      <div class="col-md-6 col-lg-3"><article class="card service-card h-100 p-4"><i class="fas fa-palette"></i><h3>Branding and graphics</h3><p>Logos, social creatives and brand kits that look consistent everywhere.</p><ul class="tags"><li>Logos</li><li>Social</li><li>Brand kits</li></ul></article></div>
     </div>
   </div>
 </section>
 
-
-<!-- SKILLS / TECH STACK -->
-<section id="skills" class="py-5">
+<!-- AI -->
+<section id="ai" class="alt">
   <div class="container">
-
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Expertise & Tech Stack</h2>
-      <p class="text-muted">Technologies, platforms, and tools powering our solutions</p>
-    </div>
-
-    <div class="row g-4 text-center">
-
-      <!-- React -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-react-original colored"></i>
-        <h6 class="fw-semibold mt-3">React.js</h6>
-        <small class="text-muted">Frontend Framework</small>
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5">
+        <h2>AI that does real work in your business</h2>
+        <p class="text-muted-2">We build AI systems with a clear job and a measurable result, such as fewer support tickets or hours saved on data entry. Your data stays yours, and a person can always step in.</p>
+        <ul class="check-list">
+          <li>Works with Claude, OpenAI and Gemini APIs</li>
+          <li>Answers grounded in your own documents</li>
+          <li>Human handoff and usage limits built in</li>
+          <li>Pilot in 2 to 4 weeks before you commit</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Discuss an AI project</a>
       </div>
-
-      <!-- Node -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-nodejs-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Node.js</h6>
-        <small class="text-muted">Backend Runtime</small>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-sm-6"><article class="card h-100 p-4"><i class="fas fa-comments"></i><h3>Support chatbots</h3><p>Answer common questions instantly and hand off the rest.</p></article></div>
+          <div class="col-sm-6"><article class="card h-100 p-4"><i class="fas fa-file-lines"></i><h3>Document search</h3><p>Ask questions across contracts, manuals and policies with sources shown.</p></article></div>
+          <div class="col-sm-6"><article class="card h-100 p-4"><i class="fas fa-gears"></i><h3>Workflow automation</h3><p>Invoices, lead routing and reports without manual copying.</p></article></div>
+          <div class="col-sm-6"><article class="card h-100 p-4"><i class="fas fa-plug"></i><h3>AI inside your app</h3><p>Summaries, search and assistants added to a product you already run.</p></article></div>
+        </div>
       </div>
-
-      <!-- Express -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-express-original"></i>
-        <h6 class="fw-semibold mt-3">Express.js</h6>
-        <small class="text-muted">API Framework</small>
-      </div>
-
-      <!-- MongoDB -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-mongodb-plain colored"></i>
-        <h6 class="fw-semibold mt-3">MongoDB</h6>
-        <small class="text-muted">NoSQL Database</small>
-      </div>
-
-      <!-- MySQL -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-mysql-plain colored"></i>
-        <h6 class="fw-semibold mt-3">MySQL</h6>
-        <small class="text-muted">Relational Database</small>
-      </div>
-
-      <!-- AWS -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-amazonwebservices-original colored"></i>
-        <h6 class="fw-semibold mt-3">AWS</h6>
-        <small class="text-muted">Cloud Platform</small>
-      </div>
-
-      <!-- Docker -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-docker-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Docker</h6>
-        <small class="text-muted">Containerization</small>
-      </div>
-
-      <!-- Git -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-git-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Git</h6>
-        <small class="text-muted">Version Control</small>
-      </div>
-
-      <!-- GitHub -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-github-original"></i>
-        <h6 class="fw-semibold mt-3">GitHub</h6>
-        <small class="text-muted">Code Hosting</small>
-      </div>
-
-      <!-- Linux -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-linux-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Linux</h6>
-        <small class="text-muted">Server Environment</small>
-      </div>
-
-      <!-- Figma -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-figma-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Figma</h6>
-        <small class="text-muted">UI / UX Design</small>
-      </div>
-
-      <!-- Google Analytics -->
-      <div class="col-md-3 col-6" data-aos="fade-up">
-        <i class="devicon-google-plain colored"></i>
-        <h6 class="fw-semibold mt-3">Analytics & SEO</h6>
-        <small class="text-muted">Search Optimization</small>
-      </div>
-
     </div>
   </div>
 </section>
 
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+    <div class="section-head"><h2>How a project runs</h2><p>Five steps, with a demo at the end of each one.</p></div>
+    <ol class="timeline">
+      <li><strong>Discover</strong><em>Days 1 to 3</em><span>A 30-minute call, then a written scope with goals, users and budget.</span></li>
+      <li><strong>Design</strong><em>Week 1 to 2</em><span>Wireframes and a clickable prototype you approve before building.</span></li>
+      <li><strong>Build</strong><em>Week 2 to 8</em><span>Weekly demos on a staging link, so nothing surprises you.</span></li>
+      <li><strong>Launch</strong><em>Final week</em><span>Testing, deployment, analytics and a handover walkthrough.</span></li>
+      <li><strong>Support</strong><em>Ongoing</em><span>Monitoring, fixes and improvements on a monthly plan.</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- TECH -->
+<section id="skills" class="alt">
+  <div class="container">
+    <div class="section-head"><h2>Tools we use every day</h2><p>24 proven tools across design, code, cloud and AI, chosen for the job rather than the trend.</p></div>
+    <div class="row g-5">
+      <div class="col-md-6"><h3 class="tool-title">Frontend and design</h3><ul class="tools">
+        <li class="tool" style="--c:#149eca"><i class="fab fa-react" aria-hidden="true"></i><span>React</span></li>
+        <li class="tool" style="--c:#d4a900"><i class="fab fa-js" aria-hidden="true"></i><span>JavaScript</span></li>
+        <li class="tool" style="--c:#e34f26"><i class="fab fa-html5" aria-hidden="true"></i><span>HTML5</span></li>
+        <li class="tool" style="--c:#1572b6"><i class="fab fa-css3-alt" aria-hidden="true"></i><span>CSS3</span></li>
+        <li class="tool" style="--c:#7952b3"><i class="fab fa-bootstrap" aria-hidden="true"></i><span>Bootstrap</span></li>
+        <li class="tool" style="--c:#a259ff"><i class="fab fa-figma" aria-hidden="true"></i><span>Figma</span></li>
+      </ul></div>
+      <div class="col-md-6"><h3 class="tool-title">Backend and data</h3><ul class="tools">
+        <li class="tool" style="--c:#3c873a"><i class="fab fa-node-js" aria-hidden="true"></i><span>Node.js</span></li>
+        <li class="tool"><i class="fas fa-server" aria-hidden="true"></i><span>Express</span></li>
+        <li class="tool" style="--c:#47a248"><i class="fas fa-leaf" aria-hidden="true"></i><span>MongoDB</span></li>
+        <li class="tool" style="--c:#00758f"><i class="fas fa-database" aria-hidden="true"></i><span>MySQL</span></li>
+        <li class="tool" style="--c:#6648a9"><i class="fas fa-plug" aria-hidden="true"></i><span>REST APIs</span></li>
+        <li class="tool" style="--c:#3776ab"><i class="fab fa-python" aria-hidden="true"></i><span>Python</span></li>
+      </ul></div>
+      <div class="col-md-6"><h3 class="tool-title">Cloud and DevOps</h3><ul class="tools">
+        <li class="tool" style="--c:#ff9900"><i class="fab fa-aws" aria-hidden="true"></i><span>AWS</span></li>
+        <li class="tool" style="--c:#2496ed"><i class="fab fa-docker" aria-hidden="true"></i><span>Docker</span></li>
+        <li class="tool" style="--c:#f05032"><i class="fab fa-git-alt" aria-hidden="true"></i><span>Git</span></li>
+        <li class="tool"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></li>
+        <li class="tool"><i class="fab fa-linux" aria-hidden="true"></i><span>Linux</span></li>
+        <li class="tool" style="--c:#6648a9"><i class="fas fa-arrows-rotate" aria-hidden="true"></i><span>CI/CD</span></li>
+      </ul></div>
+      <div class="col-md-6"><h3 class="tool-title">Integration, AI and growth</h3><ul class="tools">
+        <li class="tool" style="--c:#6648a9"><i class="fas fa-diagram-project" aria-hidden="true"></i><span>SnapLogic</span></li>
+        <li class="tool" style="--c:#6648a9"><i class="fas fa-robot" aria-hidden="true"></i><span>LLM APIs</span></li>
+        <li class="tool" style="--c:#6648a9"><i class="fas fa-magnifying-glass" aria-hidden="true"></i><span>Vector search</span></li>
+        <li class="tool" style="--c:#e37400"><i class="fas fa-chart-line" aria-hidden="true"></i><span>Analytics</span></li>
+        <li class="tool" style="--c:#21759b"><i class="fab fa-wordpress" aria-hidden="true"></i><span>WordPress</span></li>
+        <li class="tool" style="--c:#635bff"><i class="fab fa-stripe" aria-hidden="true"></i><span>Stripe</span></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head"><h2>Selected work</h2><p>Real products built for real businesses.</p></div>
+    <div class="row g-4">
+      <div class="col-md-4"><article class="project-card"><img src="assets/images/talent-origin.jpg" alt="TalentOrigin recruitment platform homepage" loading="lazy"><div class="project-info"><ul class="tags"><li>Web</li><li>React</li><li>MongoDB</li></ul><h3>TalentOrigin</h3><p><b>Challenge:</b> manage candidates and job postings in one place.<br><b>Result:</b> a scalable hiring platform, delivered on schedule.</p><a href="#contact">Discuss a similar project</a></div></article></div>
+      <div class="col-md-4"><article class="project-card"><img src="assets/images/kadiyam-flora.jpg" alt="Kadiyam Flora plant shopping app screens" loading="lazy"><div class="project-info"><ul class="tags"><li>Mobile</li><li>E-commerce</li></ul><h3>Kadiyam Flora</h3><p><b>Challenge:</b> sell plants online to local and distant buyers.<br><b>Result:</b> a cross-platform shopping app on Android and iOS.</p><a href="#contact">Discuss a similar project</a></div></article></div>
+      <div class="col-md-4"><article class="project-card"><img src="assets/images/workspace-finder.png" alt="Workspace Finder coworking search page" loading="lazy"><div class="project-info"><ul class="tags"><li>Web</li><li>Search</li></ul><h3>Workspace Finder</h3><p><b>Challenge:</b> help people compare coworking and virtual offices.<br><b>Result:</b> a searchable directory with clear listings.</p><a href="#contact">Discuss a similar project</a></div></article></div>
+    </div>
+  </div>
+</section>
 
 <!-- TEAM -->
-<section id="team" class="py-5 bg-light">
+<section id="team" class="alt">
   <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Meet Our Team</h2>
-      <p class="text-muted">Skilled professionals driving innovation and delivering results</p>
-    </div>
-
-    <div class="row g-4 text-center">
-
-      <!-- Lead Developer / Founder -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Sriram Injarapu"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Sriram Injarapu</h5>
-          <p class="text-muted">Lead MERN Full Stack Developer & Founder</p>
-          <p>Oversees projects, ensures technical excellence, and leads the team in delivering scalable web and mobile solutions.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- SnapLogic Architect -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Sunil Pinaka"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Sunil Pinaka</h5>
-          <p class="text-muted">SnapLogic Architect</p>
-          <p>Leads enterprise integration solutions and data workflow automation for scalable business systems.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Software Developer -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Arun Kumar"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Arun Kumar</h5>
-          <p class="text-muted">Software Developer</p>
-          <p>Builds scalable, high-performance applications across frontend and backend systems with a focus on reliability and clean architecture.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- DevOps Engineer -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Krishna"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Krishna</h5>
-          <p class="text-muted">DevOps Engineer</p>
-          <p>Automates deployment pipelines and manages cloud infrastructure to ensure secure, scalable, and reliable application delivery.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- SEO Specialist -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Diliip"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Diliip</h5>
-          <p class="text-muted">SEO & Marketing Specialist</p>
-          <p>Drives online visibility and growth through data-driven SEO strategies and digital marketing campaigns.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Senior Graphic Designer -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="250">
-        <div class="card p-4 shadow-sm h-100">
-          <img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg"
-               class="mx-auto d-block mb-3 rounded-circle"
-               alt="Prasanth Raj"
-               width="200" height="200"
-               style="object-fit: cover;"
-               loading="lazy">
-
-          <h5 class="fw-bold">Prasanth Raj</h5>
-          <p class="text-muted">Senior Graphic Designer</p>
-          <p>Creates impactful visual designs and brand assets that enhance user experience and communication.</p>
-
-          <div class="social-links mt-3">
-            <a href="#" class="text-primary"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-primary"><i class="fab fa-behance"></i></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
-<!-- PROJECTS -->
-<section id="projects" class="py-5">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Our Portfolio</h2>
-      <p class="text-muted">Selected projects showcasing our capabilities</p>
-    </div>
+    <div class="section-head"><h2>Meet the team</h2><p>Six specialists who work together daily.</p></div>
     <div class="row g-4">
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="project-card">
-          <img src="assets/images/talent origin.jpg" alt=" Talent origin Project ">
-          <div class="project-overlay">
-            <h5>TalentOrigin Web Platform</h5>
-            <p>Custom scalable web solution</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
-        <div class="project-card">
-          <img src="assets/images/kadiyam flora.jpg" alt="kadiyam flora Project">
-          <div class="project-overlay">
-            <h5>Kadiyam Flora Commerce App</h5>
-            <p>Cross-platform mobile experience</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="project-card">
-          <img src="assets/images/workspace finder.png" alt="Project 3">
-          <div class="project-overlay">
-            <h5>Workspace Finder</h5>
-            <p>Discover inspiring coworking & virtual offices designed for productivity.</p>
-          </div>
-        </div>
-      </div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">SI</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Sriram Injarapu" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Sriram Injarapu</h3><p class="role">Founder, lead MERN developer</p><p>Leads delivery and technical decisions on every project.</p><ul class="tags center"><li>React</li><li>Node.js</li><li>Architecture</li></ul></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">SP</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Sunil Pinaka" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Sunil Pinaka</h3><p class="role">SnapLogic architect</p><p>Designs integrations and data workflows for business systems.</p><ul class="tags center"><li>SnapLogic</li><li>APIs</li><li>Data</li></ul></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">AK</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Arun Kumar" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Arun Kumar</h3><p class="role">Software developer</p><p>Builds frontend and backend features with clean architecture.</p><ul class="tags center"><li>Full stack</li><li>Testing</li></ul></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">K</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Krishna" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Krishna</h3><p class="role">DevOps engineer</p><p>Runs pipelines and cloud infrastructure.</p><ul class="tags center"><li>AWS</li><li>Docker</li><li>CI/CD</li></ul></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">D</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Dilip" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Dilip</h3><p class="role">SEO and marketing</p><p>Grows visibility with data-led SEO and campaigns.</p><ul class="tags center"><li>SEO</li><li>Analytics</li></ul></div></article></div>
+      <div class="col-md-6 col-lg-4"><article class="card team-card h-100 text-center"><div class="avatar"><span aria-hidden="true">PR</span><img src="assets/images/happy-male-candidate-greeting-member-human-resource-team-job-interview-office.jpg" alt="Photo of Prasanth Raj" width="400" height="400" loading="lazy" onerror="this.remove()"></div><div class="team-body"><h3>Prasanth Raj</h3><p class="role">Senior graphic designer</p><p>Creates brand assets and visuals.</p><ul class="tags center"><li>Branding</li><li>Social</li></ul></div></article></div>
     </div>
   </div>
 </section>
 
-<!-- ACHIEVEMENTS -->
-<section id="achievements" class="py-5 bg-light">
+<!-- PRICING -->
+<section id="pricing">
   <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Our Achievements</h2>
-    </div>
-    <div class="row text-center g-4">
-      <div class="col-md-3"><h2 class="fw-bold">120+</h2><p>Projects Delivered</p></div>
-      <div class="col-md-3"><h2 class="fw-bold">50+</h2><p>Happy Clients</p></div>
-      <div class="col-md-3"><h2 class="fw-bold">5+</h2><p>Years Experience</p></div>
-      <div class="col-md-3"><h2 class="fw-bold">10+</h2><p>Technologies Used</p></div>
+    <div class="section-head"><h2>Packages</h2><p>Starting points. Every project gets a fixed written quote.</p></div>
+    <div class="row g-4 align-items-stretch">
+      <div class="col-lg-4"><article class="card price-card h-100 p-4"><h3>Launch</h3><p class="price">Business website</p><ul class="check-list"><li>Up to 5 pages, mobile-first</li><li>Basic SEO and analytics</li><li>Contact form and WhatsApp link</li><li>2 weeks of post-launch support</li></ul><a href="#estimator" class="btn btn-outline-primary mt-auto">Get a price</a></article></div>
+      <div class="col-lg-4"><article class="card price-card featured h-100 p-4"><span class="ribbon">Most chosen</span><h3>Grow</h3><p class="price">Web or mobile app</p><ul class="check-list"><li>Custom UI/UX and prototype</li><li>Backend, database and admin panel</li><li>Cloud deployment with CI/CD</li><li>Weekly demos, 1 month support</li></ul><a href="#estimator" class="btn btn-primary mt-auto">Get a price</a></article></div>
+      <div class="col-lg-4"><article class="card price-card h-100 p-4"><h3>Automate</h3><p class="price">AI and integration</p><ul class="check-list"><li>Chatbot or document search pilot</li><li>System integrations and workflows</li><li>Usage limits and human handoff</li><li>Monthly tuning plan</li></ul><a href="#estimator" class="btn btn-outline-primary mt-auto">Get a price</a></article></div>
     </div>
   </div>
 </section>
 
 <!-- TESTIMONIALS -->
-<section id="testimonials" class="py-5">
+<section id="testimonials" class="alt">
   <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Client Testimonials</h2>
-      <p class="text-muted">Hear from businesses who trust us</p>
-    </div>
+    <div class="section-head"><h2>What clients say</h2></div>
     <div class="row g-4">
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="card p-4 shadow-sm">
-          <p>"The team delivered our project on time with exceptional quality. Highly recommend!"</p>
-          <h6 class="fw-bold mt-3">Pranav</h6>
-          <p class="text-muted">CEO, TalentOrigin</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
-        <div class="card p-4 shadow-sm">
-          <p>"Their UI/UX and development expertise transformed our digital presence completely."</p>
-          <h6 class="fw-bold mt-3">Rajesh Kumar</h6>
-          <p class="text-muted">Marketing Head, Creative Solutions</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card p-4 shadow-sm">
-          <p>"Professional, responsive, and highly skilled. Truly a pleasure to collaborate with."</p>
-          <h6 class="fw-bold mt-3">Abhishek</h6>
-          <p class="text-muted">Startup Founder</p>
-        </div>
-      </div>
+      <div class="col-md-4"><figure class="card h-100 p-4"><div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><blockquote>The team delivered our project on time with exceptional quality.</blockquote><figcaption><b>Pranav</b><br>CEO, TalentOrigin</figcaption></figure></div>
+      <div class="col-md-4"><figure class="card h-100 p-4"><div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><blockquote>Their UI/UX and development expertise transformed our digital presence.</blockquote><figcaption><b>Rajesh Kumar</b><br>Marketing Head, Creative Solutions</figcaption></figure></div>
+      <div class="col-md-4"><figure class="card h-100 p-4"><div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><blockquote>Professional, responsive and highly skilled.</blockquote><figcaption><b>Abhishek</b><br>Startup founder</figcaption></figure></div>
     </div>
   </div>
 </section>
 
-<!-- BLOG / INSIGHTS -->
-<section id="blog" class="py-5 bg-light">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Insights & Articles</h2>
-      <p class="text-muted">Tips, updates, and best practices from our team</p>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="card p-3 shadow-sm">
-          <h5>Top 5 Web Development Trends in 2026</h5>
-          <p>Stay ahead with the latest technologies and best practices for web development.</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
-        <div class="card p-3 shadow-sm">
-          <h5>Optimizing Mobile Apps for Better UX</h5>
-          <p>Strategies to design intuitive, engaging, and high-performance mobile apps.</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card p-3 shadow-sm">
-          <h5>Scaling Cloud Infrastructure Efficiently</h5>
-          <p>Best practices for reliable, scalable, and secure cloud deployments.</p>
-        </div>
-      </div>
+<!-- FAQ -->
+<section id="faq">
+  <div class="container narrow">
+    <div class="section-head"><h2>Common questions</h2></div>
+    <div class="accordion" id="faqList">
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">How much does a website or app cost?</button></h3><div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqList"><div class="accordion-body">Simple business sites cost far less than custom apps. Use the estimator for a rough range, then we confirm a fixed quote after a short call.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Can you add AI to my existing product?</button></h3><div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Yes. We connect LLM APIs, chatbots and document search to your current app without rebuilding it.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">How long does a project take?</button></h3><div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Websites take 2 to 4 weeks. Apps and AI systems take 6 to 12 weeks depending on scope.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Who owns the code and data?</button></h3><div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">You do. After final payment you receive the full source code, accounts and documentation.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">Do you offer support after launch?</button></h3><div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Every package includes free support after launch. Monthly plans cover monitoring, updates and new features.</div></div></div>
+      <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6">Do you work with clients outside India?</button></h3><div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqList"><div class="accordion-body">Yes. We work remotely with weekly video calls and a shared project board.</div></div></div>
     </div>
   </div>
 </section>
 
+<!-- ESTIMATOR -->
+<section id="estimator" class="alt">
+  <div class="container narrow">
+    <div class="section-head"><h2>Get a rough estimate</h2><p>Three choices, instant range. Nothing is saved until you send it.</p></div>
+    <div class="card p-4">
+      <label for="estType" class="form-label">Project type</label>
+      <select id="estType" class="form-select mb-3"><option value="1">Business website</option><option value="2">Web app</option><option value="3">Mobile app</option><option value="2.5">AI chatbot or automation</option></select>
+      <label for="estSize" class="form-label">Size</label>
+      <select id="estSize" class="form-select mb-3"><option value="1">Small (up to 5 screens)</option><option value="2">Medium (6 to 15 screens)</option><option value="3.5">Large (15+ screens)</option></select>
+      <label for="estDesign" class="form-label">Design</label>
+      <select id="estDesign" class="form-select mb-3"><option value="1">I have designs</option><option value="1.3">Need UI/UX design</option></select>
+      <output id="estResult" class="estimate" aria-live="polite"></output>
+      <a href="#contact" class="btn btn-primary mt-3" id="estSend">Send this to the team</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container text-center">
+    <h2>Have an idea? Let's turn it into a plan.</h2>
+    <p>Book a free 30-minute call. You leave with a scope, timeline and rough budget.</p>
+    <a href="#contact" class="btn btn-light btn-lg">Book a free call</a>
+  </div>
+</section>
 
 <!-- CONTACT -->
-<section id="contact" class="py-5">
-  <div class="container text-center">
-    <h2 class="fw-bold text-primary mb-4">Get in Touch</h2>
-
-    <form id="contactForm" class="mx-auto" style="max-width:600px" method="POST" action="#">
-      
-      <label for="name" class="visually-hidden">Full Name</label>
-      <input id="name" type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
-
-      <label for="email" class="visually-hidden">Email</label>
-      <input id="email" type="email" name="email" class="form-control mb-3" placeholder="Email" required>
-
-      <label for="message" class="visually-hidden">Project Details</label>
-      <textarea id="message" name="message" class="form-control mb-3" rows="4" placeholder="Project Details" required></textarea>
-
-      <button type="submit" class="btn btn-primary w-100">Send Request</button>
-    </form>
-   
-    <!-- MAP -->
-    <div class="mt-5">
-      <h4 class="fw-bold text-primary">Our Location</h4>
-      <p>Door No. 70-1-4/4, 2nd floor, Polisetty Enclave, Sarpavaram, Andhra Pradesh 533005</p>
-
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://www.google.com/maps?q=Polisetty+Enclave+Sarpavaram&output=embed"
-          style="border:0;"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+<section id="contact">
+  <div class="container">
+    <div class="section-head"><h2>Tell us what you need</h2><p>We reply within one working day.</p></div>
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <ul class="contact-list">
+          <li><i class="fas fa-envelope"></i><div><b>Email</b><a href="mailto:info@digitalsolutions.com">info@digitalsolutions.com</a></div></li>
+          <li><i class="fas fa-phone"></i><div><b>Phone</b><a href="tel:+15551234567">+1 (555) 123-4567</a></div></li>
+          <li><i class="fab fa-whatsapp"></i><div><b>WhatsApp</b><a href="https://wa.me/15551234567" target="_blank" rel="noopener noreferrer">Message us</a></div></li>
+          <li><i class="fas fa-location-dot"></i><div><b>Office</b>Door No. 70-1-4/4, 2nd floor, Polisetty Enclave, Sarpavaram, Andhra Pradesh 533005</div></li>
+          <li><i class="fas fa-clock"></i><div><b>Hours</b>Mon to Sat, 9:30 AM to 6:30 PM IST</div></li>
+        </ul>
+      </div>
+      <div class="col-lg-7">
+        <!-- TODO: replace YOUR_FORM_ID with your Formspree form ID -->
+        <form id="contactForm" class="card p-4" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label for="name" class="form-label">Full name</label>
+          <input id="name" name="name" class="form-control mb-3" required autocomplete="name">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" type="email" name="email" class="form-control mb-3" required autocomplete="email">
+          <label for="message" class="form-label">Project details</label>
+          <textarea id="message" name="message" class="form-control mb-3" rows="5" placeholder="What do you want to build, and by when?" required></textarea>
+          <input type="text" name="_gotcha" class="d-none" tabindex="-1" autocomplete="off">
+          <button type="submit" class="btn btn-primary btn-lg w-100">Send request</button>
+          <p id="formStatus" class="mt-3 mb-0" role="status"></p>
+        </form>
       </div>
     </div>
+    <div class="ratio ratio-21x9 mt-5"><iframe title="Office location map" src="https://www.google.com/maps?q=Polisetty+Enclave+Sarpavaram&output=embed" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
   </div>
 </section>
-
 </main>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white pt-5 pb-4">
-  <div class="container">
-    <div class="row gy-4">
-
-      <!-- Brand -->
-      <div class="col-md-4">
-        <h5 class="fw-bold">Digital Solutions Team</h5>
-        <p class="text-white-50 mb-0">
-          Delivering innovative web, mobile, UI/UX, SEO, and cloud solutions for businesses of all sizes.
-          Our mission is to help companies grow digitally with scalable and secure solutions.
-        </p>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6"><h2>Get web and AI tips in your inbox</h2><p>One short email a month. No spam, unsubscribe any time.</p></div>
+        <div class="col-lg-6"><form id="newsletterForm" class="newsletter" action="https://formspree.io/f/YOUR_NEWSLETTER_ID" method="POST"><label for="nlEmail" class="visually-hidden">Email address</label><input id="nlEmail" type="email" name="email" class="form-control form-control-lg" placeholder="you@company.com" required autocomplete="email"><button class="btn btn-light btn-lg" type="submit">Subscribe</button></form></div>
       </div>
-
-      <!-- Quick Links -->
-      <nav class="col-md-2" aria-label="Footer Navigation">
-        <h6 class="fw-bold">Quick Links</h6>
-        <ul class="list-unstyled mb-0">
-          <li><a href="#about" class="footer-link">About</a></li>
-          <li><a href="#services" class="footer-link">Services</a></li>
-          <li><a href="#team" class="footer-link">Team</a></li>
-          <li><a href="#projects" class="footer-link">Portfolio</a></li>
-          <li><a href="#contact" class="footer-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <!-- Contact Info -->
-      <div class="col-md-3">
-        <h6 class="fw-bold">Contact</h6>
-        <address class="text-white-50 mb-0">
-          Email:
-          <a href="mailto:info@digitalsolutions.com" class="footer-link">
-            info@digitalsolutions.com
-          </a>
-          <br>
-          Phone:
-          <a href="tel:+15551234567" class="footer-link">
-            +1 (555) 123-4567
-          </a>
-          <br>
-          Door No. 70-1-4/4, 2nd floor, Polisetty Enclave,<br>
-          Sarpavaram, Andhra Pradesh 533005
-        </address>
-      </div>
-
-      <!-- Social Links -->
-      <div class="col-md-3">
-        <h6 class="fw-bold">Follow Us</h6>
-        <div class="d-flex gap-3 fs-5">
-          <a href="#" class="footer-social" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="footer-social" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="footer-social" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="footer-social" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+  <div class="container footer-main">
+    <div class="row gy-5">
+      <div class="col-lg-4">
+        <h3 class="footer-brand">Digital Solutions Team</h3>
+        <p>Web, mobile, AI and cloud solutions for growing businesses. Based in Sarpavaram, Andhra Pradesh, working worldwide.</p>
+        <div class="d-flex gap-3 fs-4 mt-3">
+          <a class="footer-social" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a class="footer-social" href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a class="footer-social" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a class="footer-social" href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a class="footer-social" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="footer-social" href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-
+      <nav class="col-6 col-lg-2" aria-label="Services"><h4>Services</h4><ul class="list-unstyled"><li><a class="footer-link" href="#services">Web development</a></li><li><a class="footer-link" href="#services">Mobile apps</a></li><li><a class="footer-link" href="#services">UI/UX design</a></li><li><a class="footer-link" href="#ai">AI solutions</a></li><li><a class="footer-link" href="#services">Cloud and DevOps</a></li><li><a class="footer-link" href="#services">SEO</a></li></ul></nav>
+      <nav class="col-6 col-lg-2" aria-label="Company"><h4>Company</h4><ul class="list-unstyled"><li><a class="footer-link" href="#process">Our process</a></li><li><a class="footer-link" href="#team">Team</a></li><li><a class="footer-link" href="#projects">Portfolio</a></li><li><a class="footer-link" href="#testimonials">Testimonials</a></li><li><a class="footer-link" href="#pricing">Pricing</a></li><li><a class="footer-link" href="#faq">FAQ</a></li></ul></nav>
+      <div class="col-lg-4"><h4>Contact</h4>
+        <address>
+          <p><i class="fas fa-envelope"></i> <a class="footer-link" href="mailto:info@digitalsolutions.com">info@digitalsolutions.com</a></p>
+          <p><i class="fas fa-phone"></i> <a class="footer-link" href="tel:+15551234567">+1 (555) 123-4567</a></p>
+          <p><i class="fas fa-location-dot"></i> Door No. 70-1-4/4, 2nd floor, Polisetty Enclave, Sarpavaram, Andhra Pradesh 533005</p>
+          <p><i class="fas fa-clock"></i> Mon to Sat, 9:30 AM to 6:30 PM IST</p>
+        </address>
+        <a href="#contact" class="btn btn-light">Start a project</a>
+      </div>
     </div>
-
-    <!-- Copyright -->
-    <div class="text-center mt-4 pt-3 border-top border-secondary">
-      <p class="small mb-0 text-white-50">
-        &copy; 2026 Digital Solutions Team. All Rights Reserved.
-      </p>
+  </div>
+  <div class="footer-bottom">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">&copy; 2026 Digital Solutions Team. All rights reserved.</p>
+      <ul class="list-inline mb-0"><li class="list-inline-item"><a class="footer-link" href="#">Privacy policy</a></li><li class="list-inline-item"><a class="footer-link" href="#">Terms</a></li><li class="list-inline-item"><a class="footer-link" href="#top">Back to top</a></li></ul>
     </div>
   </div>
 </footer>
 
-
-<a href="https://wa.me/15551234567"
-   class="whatsapp-float"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="Chat on WhatsApp">
-  <i class="fab fa-whatsapp"></i>
-</a>
-
-<div class="scroll-top" id="scrollTopBtn">
-  <i class="fas fa-arrow-up"></i>
+<!-- AI CHAT WIDGET -->
+<button class="chat-fab" id="chatFab" type="button" aria-label="Open chat assistant" aria-expanded="false" data-open-chat><i class="fas fa-comment-dots"></i></button>
+<div class="chat-panel" id="chatPanel" role="dialog" aria-label="Chat assistant" hidden>
+  <div class="chat-head"><b>Ask us anything</b><button type="button" id="chatClose" aria-label="Close chat">&times;</button></div>
+  <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <form id="chatForm" class="chat-form"><input id="chatInput" class="form-control" placeholder="Type your question" aria-label="Your question" autocomplete="off"><button class="btn btn-primary" type="submit">Send</button></form>
 </div>
+<a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<button class="scroll-top" id="scrollTopBtn" type="button" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 <script src="script.js" defer></script>
-
 </body>
 </html>
