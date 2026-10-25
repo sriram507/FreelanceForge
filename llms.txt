@@ -3,6 +3,7 @@
 
 ## Services
 - Web development (React, Node.js, MongoDB)
+- E-commerce websites (catalog, payments, orders)
 - Mobile apps (Android and iOS)
 - AI chatbots, document search, workflow automation, LLM integration
 - UI/UX and graphic design
