@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
   estimate();
   $('#estSend').addEventListener('click', () => {
     const label = s => $(s).selectedOptions[0].text;
-    $('#message').value = `Estimate request: ${label('#estType')}, ${label('#estSize')}, ${label('#estDesign')}. Range shown: ${$('#estResult').value}.\n\nMore details: `;
+    $('#message').value = `Estimate request: ${label('#estType')}, ${label('#estSize')}, ${label('#estDesign')}. Range shown: ${$('#estResult').value}.\n\nI'd like to discuss my requirements further. Please get in touch with me. `;
     setTimeout(() => $('#message').focus({ preventScroll: true }), 600);
   });
 
